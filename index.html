@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+	<script type="text/javascript" src='assets/javascripts/jquery-3.1.0.js'></script>
+	<script type="text/javascript" src='assets/javascripts/bootstrap.js'></script>
+	<script type="text/javascript" src='assets/javascripts/app.js'></script>
+</head>
+<body>
+
+<h1 id='page_header'>Rock, Paper, Scissors</h1>
+
+<div class='row' id='options_div'>
+	<div class='image_div col-xs-4'>
+		<input type="image" src="assets/images/rock.jpg" name="rock" class="image choice" id="rock" />
+	</div>
+
+	<div class='image_div col-xs-4'>
+		<input type="image" src="assets/images/paper.jpg" name="paper" class="image choice" id="paper" />
+	</div>
+
+	<div class='image_div col-xs-4'>
+		<input type="image" src="assets/images/scissors.jpg" name="scissors" class="image choice" id="scissors" />
+	</div>
+</div>
+
+<div class='row' id='outcome_div'>
+	<div class='col-xs-12 result text-align-center'>
+		<h2 id='outcome_message'>
+		</h2>
+	</div>
+</div>
+
+<div class='row scoreboard_div'>
+	<div class='scoreboard_item col-sm-3' id='matches_div'>
+		<h4>Matches</h4>
+		<h1 id='matches_value'></h1>
+	</div>
+	<div class='scoreboard_item col-sm-3' id='wins_div'>
+		<h4>Wins</h4>
+		<h1 id='wins_value'></h1>
+	</div>
+	<div class='scoreboard_item col-sm-3' id='losses_div'>
+		<h4>Losses</h4>
+		<h1 id='losses_value'></h1>
+	</div>
+	<div class='scoreboard_item col-sm-3' id='ties_div'>
+		<h4>Ties</h4>
+		<h1 id='ties_value'></h1>
+	</div>
+</div>
+
+</body>
+</html>
